@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
-bool desc(int a, int b){
+bool desc(int a, int b) {
     return (a>b);
 }
 using namespace std;
-int main(){
+int main() {
     cout<<"Vector STL all implemet!!"<<endl;
     //declear any type of data inside vector
     //vector<int>intvec;
@@ -123,5 +123,36 @@ int main(){
     //for(it=v.begin();it!=v.end();it++){
     //    cout<<*it<<" ";
     //}
+
+    //vector push and pop example
+    //vector< int > simple;
+    //for(int i = 1; i < 10; i++) {
+    //    simple.push_back(i*100);
+    //    cout << "inserting: " << simple.back() << endl;
+    //}
+    //cout << "-------------------\n";
+    //while(!simple.empty()) {
+    //    cout << "size: " << simple.size();
+    //    cout << " last element: " << simple.back() << endl;
+    //    simple.pop_back();
+    //}
+    //cout << "vector empty\n";
+    //return 0;
+
+
+    //clear and resize vector size
+    //unsigned int i;
+    //vector<unsigned int> myvector;
+    //for (i=0; i<myvector.size(); i++)
+    //    cout << " " << myvector[i];
+    //cout << endl;
+    // clear all
+    //myvector.clear();
+    //cout << "size: " << myvector.size() << endl;
+    // resize and then check size
+    //myvector.resize(10);
+    //cout << "size: " << myvector.size() << endl;
+    //return 0;
 }
+
 
